@@ -1,6 +1,6 @@
-const numberFormat = (value) => new Intl.NumberFormat('en-IN', {
+const numberFormat = (value, currencyFormat = 'INR') => new Intl.NumberFormat('en-IN', {
     style: 'currency',
-    currency: 'INR',
+    currency: currencyFormat,
 }).format(value)
 
 export default numberFormat
