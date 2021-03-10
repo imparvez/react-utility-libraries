@@ -38,7 +38,7 @@ function App() {
       <div>Modal State: {isOpen ? 'open' : 'close'}</div>
       {/* Testing Confirmation Modal Hook */}
       <Dialog />
-      <button onClick={() => handleDeleteClick()}>Delete</button>
+      <button onClick={() => handleDeleteClick()}>Initiate Delete Confirmation Modal</button>
     </div>
   );
 }
